@@ -30,6 +30,20 @@ body {
 .top-left-part .light-logo {
   display: inline-block;
 }
+
+.p-20 {
+  position: absolute;
+  bottom: 5%;
+}
+
+@media screen and (max-height: 220px) {
+  .p-20 {
+    position: relative;
+    text-align: justify;
+  }
+}
+
+
 /*Top Header Part*/
 .logo i {
   color: #ffffff;
@@ -65,7 +79,8 @@ body {
 
 #side-menu li a {
   color: #333333;
-  margin: auto;
+  margin-left: 7.5%;
+  width: 85%;
 }
 
 /* #side-menu > li > a:hover, */
