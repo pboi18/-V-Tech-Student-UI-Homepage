@@ -68,16 +68,13 @@
                 <ul class="nav navbar-top-links pull-left" style=" margin-left: 50px;">
                     <li>
                         <form role="search" class="app-search hidden-sm hidden-xs m-r-10">
+                            
+                            <input type="text" placeholder="Search for anything" class="form-control" 
+                            style="background: #FFFEFE; color: #777;
+                            box-shadow: inset 40px 40px 40px rgba(75, 75, 75, 0.238);"> 
                             <a href="" class="pull-left">
                                 <i class="fa fa-search pull-left" style="color: #EF4834;"></i>
                             </a>
-                            <input type="text" placeholder="Search for anything" class="form-control" 
-                            style="background: #FFFEFE;
-                            color: #777;
-                            
-                            box-shadow: inset 40px 40px 40px rgba(75, 75, 75, 0.238);
-                            border-radius: 10px;"> 
-                            
                         </form>
                     </li>
                 </ul>
@@ -152,10 +149,10 @@
         <!-- ============================================================== -->
         <!-- Page Content -->
         <!-- ============================================================== -->
-        <div id="page-wrapper">
+        <div id="page-wrapper" style="width: inherit;">
             <div class="container-fluid" style="padding: 0px 0px;">
                 <div class="row pull-right" style="margin: auto; width: 100%;">
-                    <ul class="nav navbar-top-links" style="display: flexbox; ">
+                    <ul class="nav navbar-top-links" style="display: flexbox; flex: wrap; padding-top: 7px;">
                         <li>
                             <a href="">
                                 <h5>
@@ -293,7 +290,7 @@
                         </div>
                     </div>
     
-                    <div class="rec-box ">
+                    <div class="rec-box pull-right">
                         <h5 class="box-title">Your Certificates so far</h5>
                         <img src="../plugins/images/image 51.png" alt="Certificate">
                         <img src="../plugins/images/image 42.png" alt="Certificate">
@@ -345,9 +342,9 @@
     <!-- ============================================================== -->
     <!-- All Jquery -->
     <!-- ============================================================== -->
-    <script src="../plugins/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="../plugins/bower_components/jquery/dist/jquery.js"></script>
     <!-- Bootstrap Core JavaScript -->
-    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bootstrap/dist/js/bootstrap.js"></script>
     <!-- Menu Plugin JavaScript -->
     <script src="../plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.js"></script>
     <!--slimscroll JavaScript -->
@@ -355,7 +352,6 @@
     
     <!-- Custom Theme JavaScript -->
     <script src="js/custom.js"></script> -->
-    <script src="../plugins/bower_components/toast-master/js/jquery.toast.js"></script> -->
 </body>
 
 </html>
