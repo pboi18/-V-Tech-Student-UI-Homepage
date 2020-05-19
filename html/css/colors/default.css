@@ -34,9 +34,16 @@ body {
 .p-20 {
   position: absolute;
   bottom: 5%;
+  margin: auto;
+  width: 160px;
 }
 
-@media screen and (max-height: 220px) {
+.p-20 a {
+  color: #333333;
+  font-weight: 500;
+}
+
+@media screen and (max-height: 400px) {
   .p-20 {
     position: relative;
     text-align: justify;
